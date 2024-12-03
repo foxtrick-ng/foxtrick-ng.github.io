@@ -1,0 +1,9 @@
+div.header {
+    width: 400px;
+    display: inline-block;
+}
+
+.header img {
+    float: left;
+    margin-top: 10px
+}
