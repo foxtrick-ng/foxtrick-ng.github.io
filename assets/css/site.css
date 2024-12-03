@@ -1,9 +1,12 @@
 div.header {
-    width: 400px;
     display: inline-block;
 }
 
 .header img {
     float: left;
-    margin-top: 10px
+    margin: 10px
+}
+
+.header h1 {
+    float: left;
 }
