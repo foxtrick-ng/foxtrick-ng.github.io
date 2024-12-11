@@ -22,12 +22,18 @@
     <p>Foxtrick will not upload any of your data or preferences to a server of Foxtrick; neither will Foxtrick send any of your private data, including but not restricted to your username, password, and player ID associated with skills to third parties.</p>
     <p>Most data passed to third parties, unless explicitly stated below, are sent with HTTP GET method, and will only be sent upon you clicking a link.</p>
     <p>That is, you will be able to see what data are passed by inspecting the URI (Uniform Resource Identifier) of an external link, and no data will be sent without your consent. As stated above, no private data is involved.</p>
-    <p>The exceptions are modules HTMSPrediction and HTEVPrediction, where match ratings are passed to and recieved from the respective sites with XMLHttpRequest.</p>
+    <p>The exceptions are:
+      <ul>
+      <li>Modules HTMSPrediction and HTEVPrediction, where match ratings are passed to and received from the respective sites with XMLHttpRequest.</li>
+      <li>Foxtrick error reporting, where error data for debugging is sent to a third party logging service with XMLHttpRequest.  See the <a href="/datacollection.html">Data Collection Policy</a> for details.</li>
+      </ul>
+    </p>
   </main>
   <footer>
     <a href="/">Home</a> &vert;
     <a href="https://github.com/foxtrick-ng/foxtrick">GitHub</a> &vert;
-    <a href="/privacy.html">Privacy Policy</a>
+    <a href="/privacy.html">Privacy Policy</a> &vert;
+    <a href="/datacollection.html">Data Collection</a>
   </footer>
 </body>
 </html>
