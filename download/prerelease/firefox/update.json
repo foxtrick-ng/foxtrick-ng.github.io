@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "{4b64746e-3984-4364-a7de-cd462be9e844}": {
+      "updates": [
+        {
+          "version": "0.18.3.38",
+          "update_link": "https://foxtrick-ng.github.io/download/prerelease/firefox/foxtrick-prerelease-0.18.3.38.xpi"
+        }
+      ]
+    }
+  }
+}
