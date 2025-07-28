@@ -10,3 +10,15 @@ div.header {
 .header h1 {
     float: left;
 }
+
+li {
+    margin-bottom: 0.5em;
+}
+
+.important {
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}
