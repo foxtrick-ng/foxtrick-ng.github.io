@@ -22,3 +22,108 @@ li {
     padding-left: 0.25em;
     padding-right: 0.25em;
 }
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+div.staff {
+    font-size: 1..05rem;
+    margin-bottom: 5rem;
+}
+
+.staff h4 {
+    color: #0d47a1;
+    margin-bottom: 0.25em;
+}
+
+.staff hr {
+    margin-top: 0em;
+    margin-bottom: 1em;
+}
+
+img.staff {
+    float: left;
+    box-shadow:grey 0px 0px 6px;left:5px;top:5px;
+    margin-right: 10%;
+}
+
+div.staff table {
+    margin: 0;
+}
+
+div.staff tr {
+    background-color: transparent;
+}
+
+div.staff td,
+div.staff th {
+    border: 0px;
+    padding: .25em;
+    margin: 0em;
+    width: 50%;
+}
+
+.staff-link {
+    font-size: 1.1em;
+    font-weight: bolder;
+    color: #0d47a1;
+}
+
+.donate-icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+}
+
+span[class^="skillvalue-"] {
+    display: inline-block;
+    padding: 0em 0.2em 0em 0.2em;
+    line-height: 1.2em;
+}
+
+span.skillvalue-0 {background-color: #ffffff;}
+span.skillvalue-1 {background-color: #EFFFEF;}
+span.skillvalue-2 {background-color: #E0EFE0;}
+span.skillvalue-3 {background-color: #D2EFD1;}
+span.skillvalue-4 {background-color: #C4DFC3;}
+span.skillvalue-5 {background-color: #B6DFB5;}
+span.skillvalue-6 {background-color: #A9CFA8;}
+span.skillvalue-7 {background-color: #90BF8F;}
+span.skillvalue-8 {background-color: #7AAF78;}
+span.skillvalue-9 {background-color: #659F63;}
+span.skillvalue-10 {background-color: #528F50;}
+span.skillvalue-11 {background-color: #417F3F;  color:#fff;}
+span.skillvalue-12 {background-color: #326F30;  color:#fff;}
+span.skillvalue-13 {background-color: #255F23;  color:#fff;}
+span.skillvalue-14 {background-color: #1A4F18;  color:#fff;}
+span.skillvalue-15 {background-color: #113F10;  color:#fff;}
+span.skillvalue-16 {background-color: #0A2F09;  color:#fff;}
+span.skillvalue-17 {background-color: #051F04;  color:#fff;}
+span.skillvalue-18 {background-color: #031702;  color:#fff;}
+span.skillvalue-19 {background-color: #020F01;  color:#fff;}
+span.skillvalue-20 {background-color: #000000;  color:#fff;}
+span.skillnumber {font-size: .75em;}
+
+img.skill-coach {
+    background-image: url(/assets/img/staff/skillbars/cone_b.png);
+    vertical-align: middle;
+}
+
+img.skill-support {
+    background-image: url(/assets/img/staff/skillbars/thumb_b.png);
+    vertical-align: middle;
+}
+img.skillbar-1 {object-position: -56px top;}
+img.skillbar-2 {object-position: -42px top;}
+img.skillbar-3 {object-position: -28px top;}
+img.skillbar-4 {object-position: -14px top;}
+img.skillbar-5 {object-position: 0px top;}
