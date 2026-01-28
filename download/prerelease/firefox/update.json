@@ -41,6 +41,10 @@
         {
           "version": "0.19.5.1",
           "update_link": "https://foxtrick-ng.github.io/download/prerelease/firefox/foxtrick-prerelease-0.19.5.1.xpi"
+        },
+        {
+          "version": "0.19.5.40",
+          "update_link": "https://foxtrick-ng.github.io/download/prerelease/firefox/foxtrick-prerelease-0.19.5.40.xpi"
         }
       ]
     }
