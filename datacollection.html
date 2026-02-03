@@ -18,58 +18,49 @@
     <p>Download the latest version of the Foxtrick browser extension for Hattrick.</p>
   </header>
   <main>
-    <h3>Data collected by Foxtrick</h3>
-    <p>
-    When you submit an error report, the following pieces of data are received by us:
-    </p>
-    <h4>Personally identifiable information (PII)</h4>
-    <ul>
-    <li>Your IP Address (to allow the server to react to any possible abuse)</li>
-    </ul>
-    <h4>Hattrick information</h4>
-    <ul>
-    <li>Your Manager ID</li>
-    <li>Your Manager Name</li>
-    <li>Your Team ID</li>
-    <li>Your Team Name</li>
-    <li>Your Team's Country</li>
-    <li>The Hattrick page URL you were on when the error/report occured</li>
-    <li>The page you came there from</li>
-    <li>Your Hattrick theme, language, text direction, time zone, date format, currency and legacy settings.</li>
-    </ul>
-    <h4>Foxtrick information</h4>
-    <ul>
-    <li>Your Foxtrick version</li>
-    <li>Your Foxtrick preferences
-    <ul>
-    <li>excluding CHPP connection tokens</li>
-    <li>excluding saved message templates</li>
-    <li>excluding saved image or sound data</li>
-    </ul>
-    </li>
-    <li>Full Foxtrick event log</li>
-    <li>Somewhat sensitive data about your team may also be included in the above. e. g.:
-    <ul>
-    <li>player stamina data</li>
-    <li>saved transfer filters</li>
-    <li>youth player skills</li>
-    <li>your monitored teams</li>
-    </ul>
-    </li>
-    </ul>
-    <h4>Technical information</h4>
-    <ul>
-    <li>Error message and stack trace</li>
-    <li>Your browser name and version</li>
-    <li>Your Operating System type and version</li>
-    </ul>
-    <h3>Data policy</h3>
-    <ul>
-    <li>The PII listed above will only be used for the explicitly stated purpose.</li>
-    <li>Other information collected will be used for no other purpose than improving Foxtrick.</li>
-    <li>No data collected by us will be transferred or sold to any third party.</li>
-    <li>All information held relating to you and your teams can be deleted upon request.</li>
-    </ul>
+  <h3>Data Collection Policy</h3>
+  <p>This document provides detailed information on the data Foxtrick collects and how it is handled for maintenance and debugging.</p>
+
+  <h4>1. Anonymised Analytics</h4>
+  <p>To help us monitor the stability of the extension, we collect basic statistics for each session (on page load):</p>
+  <ul>
+      <li><strong>Data transmitted:</strong> The Foxtrick version number and a simple indicator of whether a script error has occurred.</li>
+      <li><strong>Privacy:</strong> While your Manager ID is technically transmitted as part of this request, it is <strong>not retained</strong> and cannot be accessed by the Foxtrick developers. No personal identifiers or account details are stored during this process.</li>
+  </ul>
+
+  <h4>2. Error Reporting and Debugging</h4>
+  <p>Foxtrick uses a two-tiered system for handling technical issues:</p>
+
+  <p><strong>A. Automated Error Reporting</strong><br>
+  When a critical error occurs, the extension sends diagnostic data to a third-party logging service. This includes:</p>
+  <ul>
+      <li><strong>Hattrick Context:</strong> Manager ID and Name, Team ID and Name, Team’s Country, the current Hattrick page URL, and the referrer URL.</li>
+      <li><strong>Hattrick Settings:</strong> Theme, language, text direction, time zone, date format, and currency.</li>
+      <li><strong>Technical Information:</strong> Error message and stack trace, browser name and version, and Operating System type/version.</li>
+  </ul>
+
+  <p><strong>B. Manual Error Reporting</strong><br>
+  If you choose to send a manual report, the following additional data is included to provide deeper context:</p>
+  <ul>
+      <li><strong>Foxtrick Preferences:</strong> Your extension settings. We <strong>automatically strip</strong> sensitive tokens and personal data from these settings, including Foxtrick CHPP connection tokens, saved message templates, and saved image/sound data.</li>
+      <li><strong>Debug Log:</strong> A technical log of the extension's recent activity. <strong>Note:</strong> We do not actively strip data from this log. While it is primarily composed of diagnostic information relating to Foxtrick and its interaction with Hattrick, it may contain any data processed by the extension during your session (such as details of pages viewed or game IDs).</li>
+  </ul>
+
+  <h4>3. Data Retention and User Rights</h4>
+  <ul>
+      <li><strong>Retention:</strong> All collected diagnostic and error data is automatically deleted after <strong>90 days</strong>.</li>
+      <li><strong>Right to Deletion:</strong> All stored data pertaining to a specific user can be deleted upon request. Please contact the developers via <a href="https://www.hattrick.org/goto.ashx?path=%2FMyHattrick%2FInbox%2F%3FactionType%3DnewMail%26userId%3D13992846">Hattrick Mail</a> to initiate this.</li>
+      <li><strong>Transmission:</strong> Data is transmitted securely via the <code>fetch</code> API over HTTPS.</li>
+      <li><strong>Usage:</strong> Data is used strictly for technical debugging. We do not sell or share this information.</li>
+  </ul>
+
+  <h4>4. Your Control</h4>
+  <p>You can manage these features at any time:</p>
+  <ol>
+      <li>Open <strong>Foxtrick Preferences</strong>.</li>
+      <li>Navigate to <strong>Categories</strong> -> <strong>Core</strong>.</li>
+      <li>Adjust the settings for the <strong>Reporter</strong> module.</li>
+  </ol>
   </main>
   <footer>
     <a href="/">Home</a> &vert;
