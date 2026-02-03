@@ -19,15 +19,30 @@
   </header>
   <main>
     <h3>Privacy Policy</h3>
-    <p>Foxtrick will not upload any of your data or preferences to a server of Foxtrick; neither will Foxtrick send any of your private data, including but not restricted to your username, password, and player ID associated with skills to third parties.</p>
-    <p>Most data passed to third parties, unless explicitly stated below, are sent with HTTP GET method, and will only be sent upon you clicking a link.</p>
-    <p>That is, you will be able to see what data are passed by inspecting the URI (Uniform Resource Identifier) of an external link, and no data will be sent without your consent. As stated above, no private data is involved.</p>
-    <p>The exceptions are:
-      <ul>
-      <li>Modules HTMSPrediction and HTEVPrediction, where match ratings are passed to and received from the respective sites with XMLHttpRequest.</li>
-      <li>Foxtrick error reporting, where error data for debugging is sent to a third party logging service.  See the <a href="/datacollection.html">Data Collection Policy</a> for details.</li>
-      </ul>
-    </p>
+    <p>Foxtrick does not upload your personal data or preferences to its own servers, nor does it share your private information—including usernames, passwords, or game data with third parties, except in the specific cases outlined below.</p>
+
+    <h4>1. Hattrick CHPP API Integration</h4>
+    <p>Foxtrick uses Hattrick’s official <strong>CHPP (Certified Hattrick Product Program)</strong> API to send and receive game data. This data exchange occurs directly between the extension and Hattrick’s official servers.</p>
+
+    <h4>2. External Links and URI Data</h4>
+    <p>When you click an external link provided by the extension, Foxtrick may append URL parameters (such as playerId or teamId) to provide relevant context to the destination site. These are sent via the <strong>HTTP GET</strong> method, and you can verify exactly what data is being transmitted by inspecting the URI (address) of the link. No such data is sent without your direct action.</p>
+
+    <h4>3. Functional Module Exceptions</h4>
+    <p>To provide specific features, the following modules transmit data automatically via background requests (using the <code>fetch</code> API):</p>
+    <ul>
+      <li><strong>Hattrick Youth Club Integration:</strong> Transmits youth team data to the <a href="https://www.hattrick-youthclub.org">Hattrick Youth Club</a> service to sync and display your youth academy progress.</li>
+      <li><strong>HTMSPrediction:</strong> Sends match ratings to the HTMS site to retrieve and display match predictions.</li>
+      <li><strong>MercattrickStats:</strong> Sends player IDs from transfer search results to provide market statistics and valuations.</li>
+    </ul>
+
+    <h4>4. Analytics and Error Reporting</h4>
+    <p>To help us improve the extension and fix bugs, Foxtrick may collect the following:</p>
+    <ul>
+      <li><strong>Anonymised Analytics:</strong> We may send limited, non-identifiable usage data to understand how the extension is being used.</li>
+      <li><strong>Error Reporting:</strong> If the extension encounters a bug, debugging data is sent to a third-party logging service.</li>
+    </ul>
+
+    <p>For full details on what is included in the above and how we handle this information, please see our <a href="/datacollection.html">Data Collection Policy</a>.</p>
   </main>
   <footer>
     <a href="/">Home</a> &vert;
