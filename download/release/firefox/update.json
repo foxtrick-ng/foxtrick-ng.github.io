@@ -50,6 +50,11 @@
           "version": "0.19.6.0",
           "update_link": "https://foxtrick-ng.github.io/download/release/firefox/foxtrick-0.19.6.0.xpi",
           "update_hash": "sha256:a6d2cea18afbe018015220a03d3dc3bbe5eed74bd87eaec9280f5c256d8a812a"
+        },
+        {
+          "version": "0.19.7.0",
+          "update_link": "https://foxtrick-ng.github.io/download/release/firefox/foxtrick-0.19.7.0.xpi",
+          "update_hash": "sha256:347c8227c138c380aaefd7596142e49d1ecb8820a824bc9f1b19a31ea8fdf51d"
         }
       ]
     }
